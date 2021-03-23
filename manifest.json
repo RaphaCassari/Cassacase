@@ -1,16 +1,11 @@
 {
-  "name": "Vampetase",
+  "name": "Cassacase",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Chrome extension to override all images in a page by Vampeta.",
-  "homepage_url": "https://github.com/famoraes/vampetase",
-  "author": "Fabiano Moraes",
-  "short_name": "Vampetase",
-  "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
-  },  
+  "description": "Chrome extension to override all images in a page by other images.",
+  "homepage_url": "https://github.com/RaphaCassari/Cassacase",
+  "author": "Raphael Cassari",
+  "short_name": "Cassacase",
   "background": {
     "scripts": [
       "src/bg/background.js"
@@ -31,7 +26,7 @@
       ],
       "js": [
         "js/jquery/jquery.min.js",
-        "src/inject/vampetase.js"
+        "src/inject/cassacase.js"
       ]
     }
   ]
